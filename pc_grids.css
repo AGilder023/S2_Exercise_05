@@ -64,12 +64,38 @@ div.col-3-4 {
 
 
 /* Practice */
-
-
-
-
+/* div {
+    position: relative;
+    top: 250px;
+    left: 450px;
+} */
+/* 
 section {
+    position: relative;
+}
+
+section>article {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+} */
+
+/* section {
     display: grid;
     grid-template-rows: 100px auto 100px;
     grid-template-columns: 25% 50% 25%;
+} */
+
+/* body {
+    position: absolute;
 }
+
+body>section {
+    position: static;
+}
+
+body>section>article {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+} */
